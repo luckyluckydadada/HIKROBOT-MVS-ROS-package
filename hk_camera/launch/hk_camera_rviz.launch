@@ -4,8 +4,10 @@
     <param name="image_height" value="480" />
     <param name="camera_frame_id" value="usb_cam" /> -->
   </node>
-  <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen">
-    <remap from="image" to="/hk_camera/image_raw"/>
-    <param name="autosize" value="true" />
-  </node>
+  <node 
+    pkg="rviz"
+    type="rviz"
+    name="rviz"
+  />
+  <!-- args="-d $(find mvs_ros_pkg)/rviz_cfg/mvs_camera.rviz" -->
 </launch>

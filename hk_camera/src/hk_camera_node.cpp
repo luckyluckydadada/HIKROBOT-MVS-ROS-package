@@ -69,7 +69,7 @@ bool HkCamNode::spin()
 			ROS_WARN("HIKROBOT camera did not respond in time.");
 		ros::spinOnce();
 		loop_rate.sleep();
-	}s
+	}
 	return true;
 }
 
