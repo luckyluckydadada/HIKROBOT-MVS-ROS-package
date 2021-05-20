@@ -14,8 +14,13 @@ catkin_make
 source ./devel/setup.bash 
 rosrun hk_camera hk_camera_node
 ```
+# launch启动node
+```
+source ./devel/setup.bash 
+roslaunch hk_camera hk_camera.launch
+```
 # launch启动node和rviz node
-用 riz 订阅 /hk_camera/image_raw 查看照片
+用 rviz 订阅 /hk_camera_node/image_raw 查看照片
 ```
 source ./devel/setup.bash 
 roslaunch hk_camera hk_camera_rviz.launch

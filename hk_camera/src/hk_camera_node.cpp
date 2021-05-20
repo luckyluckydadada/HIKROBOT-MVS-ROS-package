@@ -75,7 +75,7 @@ bool HkCamNode::spin()
 
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "hk_camera");
+	ros::init(argc, argv, "hk_camera_node");
 	HkCamNode a;
 	a.spin();
 	return EXIT_SUCCESS;

@@ -52,7 +52,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /hk_camera/image
+      Image Topic: /hk_camera_node/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
