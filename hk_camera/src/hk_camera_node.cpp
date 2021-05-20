@@ -66,16 +66,16 @@ bool HkCamNode::spin()
 	while (node_.ok())
 	{
 		if (!send_image())
-			ROS_WARN("USB camera did not respond in time.");
+			ROS_WARN("HIKROBOT camera did not respond in time.");
 		ros::spinOnce();
 		loop_rate.sleep();
-	}
+	}s
 	return true;
 }
 
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "usb_cam");
+	ros::init(argc, argv, "hk_camera");
 	HkCamNode a;
 	a.spin();
 	return EXIT_SUCCESS;
