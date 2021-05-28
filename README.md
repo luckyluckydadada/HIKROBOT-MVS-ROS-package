@@ -1,5 +1,7 @@
+# 此仓库不再维护， 请转到新库：https://github.com/luckyluckydadada/HIKROBOT-MVS-CAMERA-ROS
+
 # HIKROBOT-MVS-ROS-package
-海康威视工业相机sdk的ros驱动包，照片已经转码为rgb格式，方便算法开发。。
+海康威视工业相机sdk的ros驱动包，照片已经转码为rgb格式，方便算法开发。
 
 # Install
 ```
